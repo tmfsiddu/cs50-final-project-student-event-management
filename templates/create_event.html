@@ -1,0 +1,11 @@
+{% extends "layout.html" %}
+{% block content %}
+<div class="card">
+<form method="post">
+    <input name="title" placeholder="Event Title" required>
+    <textarea name="description" placeholder="Description"></textarea>
+    <input name="date" type="date" required>
+    <button>Create</button>
+</form>
+</div>
+{% endblock %}

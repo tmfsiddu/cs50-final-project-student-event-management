@@ -1,0 +1,36 @@
+body {
+    background: #f4f6f8;
+    font-family: Arial;
+}
+
+.container {
+    width: 70%;
+    margin: auto;
+}
+
+.card {
+    background: white;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+}
+
+input, textarea {
+    width: 100%;
+    margin: 8px 0;
+    padding: 10px;
+}
+
+button {
+    background: #0056d2;
+    color: white;
+    border: none;
+    padding: 10px 16px;
+    border-radius: 5px;
+}
+
+.status {
+    color: green;
+    font-weight: bold;
+}

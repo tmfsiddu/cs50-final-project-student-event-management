@@ -1,0 +1,29 @@
+{% extends "layout.html" %}
+{% block content %}
+
+<div style="display: flex; justify-content: space-between; align-items: center;">
+    <h2>Student Dashboard</h2>
+    <div>
+        <a href="/events"><button>Events</button></a>
+        <a href="/logout"><button>Logout</button></a>
+    </div>
+</div>
+
+<h3>Your Registered Events</h3>
+
+{% if registered_ids %}
+    {% for event in events %}
+        {% if event[0] in registered_ids %}
+            <div class="card">
+                <h3>{{ event[1] }}</h3>
+                <p>{{ event[2] }}</p>
+                <p>Date: {{ event[3] }}</p>
+                <p class="status">Registered</p>
+            </div>
+        {% endif %}
+    {% endfor %}
+{% else %}
+    <p>You have not registered for any events yet.</p>
+{% endif %}
+
+{% endblock %}
