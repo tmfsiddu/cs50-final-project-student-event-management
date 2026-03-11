@@ -1,4 +1,4 @@
-<img width="1909" height="928" alt="image" src="https://github.com/user-attachments/assets/d14a4b1f-65a1-466b-9120-21a7273e868e" /># Student Event Management System
+
 
 #### Video Demo: https://youtu.be/9Xn3ChB6YjU
 #### Description:
