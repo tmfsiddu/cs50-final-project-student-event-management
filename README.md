@@ -1,6 +1,6 @@
-# Student Event Management System
+<img width="1909" height="928" alt="image" src="https://github.com/user-attachments/assets/d14a4b1f-65a1-466b-9120-21a7273e868e" /># Student Event Management System
 
-#### Video Demo: https://www.youtube.com/watch?v=YOUR_VIDEO_LINK_HERE
+#### Video Demo: https://youtu.be/9Xn3ChB6YjU
 #### Description:
 
 The Student Event Management System is a role-based web application developed as my CS50x final project. The application is designed to streamline the process of creating, managing, and registering for academic and campus events. It addresses the common problem of unorganized event communication by providing a centralized platform where staff members can create events and students can view, register, and track their participation.
